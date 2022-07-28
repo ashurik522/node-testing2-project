@@ -6,10 +6,6 @@ exports.up = function(knex) {
         tbl.string('name', 32)
             .notNullable()
             .unique()
-        tbl.string('type', 32)
-            .notNullable()
-        tbl.string('description')
-            .notNullable()
     })
 };
 
